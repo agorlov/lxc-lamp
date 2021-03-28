@@ -32,10 +32,12 @@ Feel free to edit and adapt it for your project.
  $ git clone https://github.com/agorlov/lxc-lamp.git myapp
  $ cd myapp
  $ sudo bash ./lxc-lamp.sh myapp
+ 
+ ..wait for few minutes..
  ```
 3. Open your template app in browser: http://10.0.3.31/ (where 10.03.31 is your internal container addess)
 4. Start editing ``index.php`` 
-5. Put some static files to **myapp/public** dir (``myapp/public -> /www/public)
+5. Put some static files to **myapp/public** dir (``myapp/public -> /www/public``)
 
 
 #### Useful facts and commands
