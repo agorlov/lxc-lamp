@@ -29,7 +29,7 @@ Feel free to edit and adapt it for your project.
 1. Figure out what your application will be called. For this example: **myapp**
 2. Then open terminal:
  ```bash
- $ git clone https://github.com/agorlov/lxc-lamp.git
+ $ git clone https://github.com/agorlov/lxc-lamp.git myapp
  $ cd myapp
  $ sudo bash ./lxc-lamp.sh myapp
  ```
