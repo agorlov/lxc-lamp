@@ -42,8 +42,8 @@ Feel free to edit and adapt it for your project.
 
 #### Useful facts and commands
 
-- Your project working directory mapped to inside container:
-  example: ``/home/alexandr/myapp -> /www``
+- Your project working directory mapped to inside container:\
+  example: ``/home/alexandr/myapp -> /www``\
   So, work with your files directly in the app folder.
 - List lxc containers and its ``ip-addresses``: ``sudo lxc-ls -f``
 - Start container: ``sudo lxc-attach myapp``
