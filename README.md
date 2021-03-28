@@ -14,7 +14,7 @@ Five components (frequently used for web development in php world):
 
 All this packed in one light container for your future webapp.
 
-You press one button and everything unfolds at its best, take it and enjoy it.
+You press one button and everything unfolds at its best, take it and enjoy it.\
 I wholeheartedly hope you get a similar experience. :o)
 
 
