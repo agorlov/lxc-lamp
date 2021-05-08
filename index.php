@@ -5,7 +5,7 @@
  * 
  * It's example/template.
  * 
- * @author Alexandr Gorlov
+ * @author {Your Name}
  */
 
 echo "<pre>";
