@@ -26,10 +26,7 @@ Feel free to edit and adapt it for your project.
 
 ### Getting started
 
-0. Insltall ``lxc``:
-  ```
-  $ sudo apt install lxc
-  ```
+1. Insltall ``lxc``: ``$ sudo apt install lxc``
 2. Figure out what your application will be called. For this example: **myapp**
 3. Then open terminal:
  ```bash
