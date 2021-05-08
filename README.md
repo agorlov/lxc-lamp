@@ -18,7 +18,7 @@ You press one button and everything unfolds at its best, take it and enjoy it.\
 I wholeheartedly hope you get a similar experience. :o)
 
 
-**Tested on:** Ubuntu 18.04
+**Tested on:** Ubuntu 18.04, Ubuntu 20.04
 
 One script and only 200 lines of code with comments!\
 Feel free to edit and adapt it for your project.
@@ -70,6 +70,23 @@ $ cd myProject
 $ wget https://raw.githubusercontent.com/agorlov/lxc-lamp/main/lxc-lamp.sh
 $ sudo bash ./lxc-lamp.sh myProject
 ```
+### Known issues
+
+Message like:
+```
+Starting myapp...
+lxc-start: myapp1: lxccontainer.c: wait_on_daemonized_start: 851 Received container state "ABORTING" instead of "RUNNING"
+...
+```
+workaround is to edit: ``/etc/lxc/default.conf`` and add string: ``lxc.apparmor.profile = unconfined``, 
+then start again ``sudo bash ./lxc-lamp.sh myapp``
+
+More info on issue: https://github.com/lxc/lxc/issues/1895
+
+
+
+
+
 
 ## Why lxc?
 
