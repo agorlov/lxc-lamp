@@ -26,8 +26,12 @@ Feel free to edit and adapt it for your project.
 
 ### Getting started
 
-1. Figure out what your application will be called. For this example: **myapp**
-2. Then open terminal:
+0. Insltall ``lxc``:
+  ```
+  $ sudo apt install lxc
+  ```
+2. Figure out what your application will be called. For this example: **myapp**
+3. Then open terminal:
  ```bash
  $ git clone https://github.com/agorlov/lxc-lamp.git myapp
  $ cd myapp
