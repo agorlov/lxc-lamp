@@ -34,6 +34,7 @@ Feel free to edit and adapt it for your project.
  $ cd myapp
  $ sudo bash ./lxc-lamp.sh myapp
  
+ (here myapp is name of lxc container)
  ..wait for few minutes..
  ```
 3. Open your template app in browser: http://10.0.3.31/ (where 10.03.31 is your internal container addess)
