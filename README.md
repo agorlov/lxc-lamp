@@ -48,11 +48,11 @@ Feel free to edit and adapt it for your project.
   example: ``/home/alexandr/myapp -> /www``\
   So, work with your files directly in the app folder.
 - List lxc containers and its ``ip-addresses``: ``sudo lxc-ls -f``
-- Start container: ``sudo lxc-attach myapp``
+- Start container: ``sudo lxc-start myapp``
 - Go to the container: ``sudo lxc-attach myapp``
 - Stop container: ``sudo lxc-stop myapp``
 - Remove container: ``sudo lxc-destroy myapp``
-- All container files stored in (as regular files!) ``/var/lib/lxc/myapp/rootfs``
+- All container files stored in ``/var/lib/lxc/myapp/rootfs`` as regular files!
   To delete a container, you can actually delete a directory ``/var/lib/lxc/myapp/``
 - Static files and document root in **myapp/public** ex.: ``myapp/public/example.css``
 - Starting point of your app is **myapp/index.php**
@@ -80,8 +80,6 @@ workaround is to edit: ``/etc/lxc/default.conf`` and add string: ``lxc.apparmor.
 then start again ``sudo bash ./lxc-lamp.sh myapp``
 
 More info on issue: https://github.com/lxc/lxc/issues/1895
-
-
 
 
 
