@@ -55,7 +55,7 @@ fi
 
 # Container creation: Ubuntu 20.04
 echo "Creationg container: ${LXC_NAME}"
-lxc-create -t download -n "${LXC_NAME}" -- -d ubuntu -r focal -a amd64
+lxc-create -t download -n "${LXC_NAME}" -- -d ubuntu -r focal -a amd64 --no-validate
 
 # Lxc config tweaks
 {
